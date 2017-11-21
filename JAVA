@@ -1,0 +1,34 @@
+VARIALBE :
+	TYPE Nom = VALEUR;
+
+CLASSES :
+
+	TYPE (Nom de la classe) Nom = new TYPE();
+		> new : creation d'une nouvelle instance;
+
+	> DROITS (En dehors de la classe !)
+		> public    : droit en lecture et en ecriture;
+		> protected : droit en lecture;
+		> private   : aucun droit;
+
+	> this : fait reference a la variable global
+
+ABSTRACT CLASS :
+	> Ne peut pas être instancié !!!
+
+	> Les classes filles (qui heritent de la classe mère) doivent redefinir les methodes abstraites !
+
+LISTES
+	> List<TYPE [Classe]> Nom = new ArrayList<>();
+
+DYNAMIC != STATIC
+
+STATIC
+	Java pré-compile les méthodes, les attributs static. Celle-ci sont par default dans les classes.
+	Si dynamic, alors on doit créer un objet pour pouvoir accéder au méthodes.
+
+
+METHODES :
+	[DROIT] [STATIC] TYPE Nom([PARAMETRES]) {
+		return TYPE;
+	} 
