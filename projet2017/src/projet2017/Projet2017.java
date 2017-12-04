@@ -17,11 +17,13 @@ public class Projet2017 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Naturel n = new Naturel("12", 10);
-        n.addition(new Naturel(("110"), 10));
-        
-        
-        System.out.println(n.toString());
+        Naturel n = new Naturel("1232", 10);
+        n.soustraction(new Naturel("2000", 10));
+        Naturel m = new Naturel("1001", 10);
+
+        /*String s = Integer.toString(11, 16);
+        System.out.println(s);
+         */
     }
-    
+
 }
